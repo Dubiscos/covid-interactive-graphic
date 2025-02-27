@@ -29,7 +29,7 @@ pip install streamlit pandas plotly
 3️⃣ Run the application
 
 ```bash
-streamlit run covid_dashboard.py
+streamlit run graficointerativocovid.py
 ```
 4️⃣ Open the local link displayed in the terminal and explore the dashboard!
 
