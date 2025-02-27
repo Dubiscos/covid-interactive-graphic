@@ -1,51 +1,47 @@
 # COVID-19 Interactive Dashboard (Brazil)
 
-📊 A Streamlit-powered interactive dashboard for analyzing COVID-19 data in Brazil
+📊 *A Streamlit-powered interactive dashboard for analyzing COVID-19 data in Brazil* 
 
-Overview
+## 📌 **Overview**
 This project is a case study using Streamlit to visualize COVID-19 data for Brazilian states. The dashboard provides insights into confirmed cases, deaths, and vaccination trends using interactive charts.
 
-Features
-✅ Live COVID-19 data from wcota/covid19br
-✅ State-level filtering for detailed analysis
-✅ Interactive visualizations (cases, deaths, vaccinations)
-✅ User-friendly interface with Streamlit
+## 🚀 **Features**
+✅ **Live COVID-19 data** from [wcota/covid19br](https://github.com/wcota/covid19br)
+✅ **State-level filtering** for detailed analysis
+✅ **User-friendly interface with Streamlit** 
 
-Data Source
-📊 Data is sourced from:
-wcota/covid19br
+## 📊 **Data Source**  
+Data is sourced from: 
+[wcota/covid19br](https://raw.githubusercontent.com/wcota/covid19br/refs/heads/master/cases-brazil-states.csv)
 
-Installation & Usage
-1️⃣ Clone the repository
+## 🛠 **Installation & Usage**  
 
-bash
-Copiar
-Editar
-git clone https://github.com/your-username/covid19-brazil-dashboard.git
-cd covid19-brazil-dashboard
+### 1️⃣ **Clone the repository**  
+```bash
+git clone https://github.com/Dubiscos/covid-interative-graphic.git
+cd covid-interative-graphic
+```
 2️⃣ Install dependencies
 
-bash
-Copiar
-Editar
-pip install streamlit pandas plotly  
+```bash
+pip install streamlit pandas plotly
+```
 3️⃣ Run the application
 
-bash
-Copiar
-Editar
+```bash
 streamlit run covid_dashboard.py
+```
 4️⃣ Open the local link displayed in the terminal and explore the dashboard!
 
-Technologies Used
+## 🖥 **Technologies Used**
 🐍 Python
 🎨 Streamlit
 📊 Plotly
 📄 Pandas 
 
-Contributing
+## 🤝 **Contributing**
 Contributions and suggestions are welcome! Feel free to open an issue or submit a pull request.
 
-License
+##📜 **License**
 📝 This project is for educational purposes and follows an open-source license.
 
